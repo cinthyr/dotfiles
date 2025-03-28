@@ -1,0 +1,31 @@
+theme = "catppuccin"
+
+[editor]
+line-number = "relative"
+mouse = false
+auto-pairs = false
+
+[editor.statusline]
+left = ["mode", "spinner", "read-only-indicator", "file-modification-indicator"]
+center = ["file-name"]
+right = ["diagnostics", "selections", "register", "position", "file-encoding"]
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
+
+[keys.normal]
+o = ["open_below", "normal_mode"]
+O = ["open_above", "normal_mode"]
+X = ["extend_line_above"]
+
+[keys.normal.g]
+s = ["select_mode", "goto_first_nonwhitespace", "exit_select_mode"]
+g = ["select_mode", "goto_file_start", "exit_select_mode"]
+e = ["select_mode", "goto_file_end", "exit_select_mode"]
+h = "extend_to_line_start"
+l = "extend_to_line_end"

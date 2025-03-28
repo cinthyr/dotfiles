@@ -1,0 +1,28 @@
+editor /opt/homebrew/bin/nvim
+
+tab_bar_edge bottom
+# font_family      monospace
+# bold_font        auto
+# italic_font      auto
+# bold_italic_font auto
+remember_window_size  no
+initial_window_width  1280
+initial_window_height 800
+
+# background #111119
+# foreground #cbb4e5
+
+window_padding_width 10
+
+# BEGIN_KITTY_THEME
+# Echo
+include current-theme.conf
+# END_KITTY_THEME
+
+
+# BEGIN_KITTY_FONTS
+font_family      family="Consolas"
+bold_font        auto
+italic_font      auto
+bold_italic_font auto
+# END_KITTY_FONTS

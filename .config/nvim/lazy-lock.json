@@ -1,0 +1,8 @@
+{
+  "Comment.nvim": { "branch": "master", "commit": "e30b7f2008e52442154b66f7c519bfd2f1e32acb" },
+  "catppuccin": { "branch": "main", "commit": "0b2437bcc12b4021614dc41fcea9d0f136d94063" },
+  "lazy.nvim": { "branch": "main", "commit": "f15a93907ddad3d9139aea465ae18336d87f5ce6" },
+  "markview.nvim": { "branch": "main", "commit": "f1e2a57388b61fff8e9d7519ce05cee27a59a57e" },
+  "mini.nvim": { "branch": "main", "commit": "1bd64e3ce49964cdfa9ee0e84c56f42d53b89052" },
+  "nvim-surround": { "branch": "main", "commit": "ae298105122c87bbe0a36b1ad20b06d417c0433e" }
+}

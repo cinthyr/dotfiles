@@ -1,0 +1,11 @@
+source "%val{config}/plugins/plug.kak/rc/plug.kak"
+plug "andreyorst/plug.kak" noload
+
+colorscheme catppuccin
+add-highlighter global/ number-lines -relative -hlcursor -separator " |"
+add-highlighter global/ show-matching
+set-option global ui_options terminal_assistant=cat
+
+map global normal o "o<esc>"
+map global normal O "O<esc>"
+map -docstring "toggle comment" global user c ":comment-line<ret>"
